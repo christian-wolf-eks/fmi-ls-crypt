@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Test Project'
+project = 'fmi-ls-crypt'
 copyright = '2024, Christian Wolf and Foo Bar'
 author = 'Christian Wolf and Foo Bar'
 
@@ -18,7 +18,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
 
 
 
@@ -29,3 +29,4 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'basic'
 html_theme = 'classic'
 html_static_path = ['_static']
+html_last_updated_fmt = "%b %d, %Y, %X"
